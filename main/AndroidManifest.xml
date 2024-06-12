@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AsmXuong"
+        tools:targetApi="31">
+        <activity
+            android:name=".SuanhanvienActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemnvActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NhanvienScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.PhongBanscreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.MainscreensActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.HomeScreens"
+            android:exported="false" />
+        <activity
+            android:name=".screens.LogincreensActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.SignupscreensActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assignment"
+            android:exported="false" />
+        <activity
+            android:name=".screens.WellcomeScreens"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
